@@ -42,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/repassword"
         android:layout_marginTop="30dp"
-        android:text="Register" />
+        android:background="@color/lavender"
+        android:text="sign up" />
 
     <Button
         android:id="@+id/btnSignIn"
@@ -51,6 +52,6 @@
         android:layout_below="@id/btnSignUp"
         android:layout_marginTop="5dp"
         android:background="@android:color/transparent"
-        android:text="Existing user! Go to Sign in page" />
+        android:text="Already have an account? Sign in" />
 
 </RelativeLayout>
